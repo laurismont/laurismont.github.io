@@ -1,0 +1,13 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {"url": "https://raw.githubusercontent.com/laurismont/laurismont.github.io/main/traffic.csv"
+
+    
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Count Emails", "type": "quantitative", "axis": {"labelAngle": 0}},
+    "y": {"field": "Continents", "type": "nominal"}
+  }
+}
